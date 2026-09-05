@@ -1,0 +1,18 @@
+public class Main {
+  public static void main(String[] args) {
+
+    PortatilTecnico portatilTecnico = new POrtatilTecnico("Juan Pérez", "HP", "SN-001", "2589634");
+    PortatilTecnologo portatilTecnologo = new PortatlTecnologo("María Gómez", "Dell", " SN-002", "2589700", 3);
+
+  Dispositivo[] dispositivos = 
+  { portatilTecnico, portatilTecnologo };
+      for (Dispositivo d : dispositivos) {
+            d.registrarEntrada();
+            d.mostrarinformacion(); }
+
+  Sysytem.outprintln("----------------------------------------");
+  dispositivos[O].registrarSalida(); 
+  }
+}
+
+      
